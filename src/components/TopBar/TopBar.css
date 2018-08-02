@@ -1,0 +1,29 @@
+*{
+      font-family: 'Comfortaa', cursive;
+}
+.top-bar-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #5b3dfd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.top-bar-input {
+  border-radius: 40px;
+  margin: 0px 10px;
+  padding: 7px 15px;
+  border: 1px solid #5b3dfd;
+  outline: none;
+}
+
+.top-bar-select {
+  border-radius: 40px;
+  margin: 0px 10px;
+  padding: 7px 15px;
+  border: 1px solid #5b3dfd;
+  outline: none;
+  cursor: pointer;
+}

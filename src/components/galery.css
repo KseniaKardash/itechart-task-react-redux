@@ -1,0 +1,30 @@
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.galery-container {
+  margin: 20px 5px;
+  max-width: 400px;
+  box-shadow: 5px 5px 20px #c1c1c1;
+  border: 1px solid #efefef;
+  padding: 20px;
+
+}
+.galery-container-photo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.galery-container-likes {
+font-weight: bold;
+cursor: default;
+font-family: 'Comfortaa', cursive;
+}
+
+.galery-container-description {
+margin-top: 20px;
+padding-right: 20px;
+cursor: default;
+font-family: 'Comfortaa', cursive;
+}
